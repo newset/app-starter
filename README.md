@@ -13,7 +13,7 @@ A base scaffold for modular Flutter applications.
   - `WalletEntity`
   - `AppConfigEntity`
 - Tencent Cloud Chat SDK integration entry
-- Web3 browser with injected JS providers (`ethereum`, `solana`, `tronWeb`)
+- Web3 browser with injected JS providers (`ethereum`, `solana`, `tronWeb`), including Solana `connect/disconnect/signMessage/signTransaction` bridge over WebView JavaScript channel
 
 ## Structure
 
