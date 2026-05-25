@@ -1,0 +1,31 @@
+name: app_starter
+description: Plugin-based Flutter base scaffold with multi-chain wallet, IM and Web3 browser.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.4
+  webview_flutter: ^4.8.0
+  multi_chain_wallet:
+    git:
+      url: https://github.com/newset/multi_chain_wallet.git
+  tencent_cloud_chat_sdk: ^8.6.6496
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+  build_runner: ^2.4.13
+  isar_generator: ^3.1.0+1
+
+flutter:
+  uses-material-design: true
